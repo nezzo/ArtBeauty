@@ -1,0 +1,521 @@
+@media(max-width: 1199px) {
+  header .container {
+    position: static;
+  }
+  #menu>li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  #menu>li>a {
+    font-size: 13px;
+  }
+  #menu>li>a>i {
+    display: none;
+  }
+  .curve-block a.text {
+    font-size: 18px;
+  }
+  #menu .dropdown li a {
+    padding: 5px 25px;
+    font-size: 13px;
+  }
+  #menu .dropdown.mega .title {
+    margin: 15px 0 10px;
+    font-size: 16px;
+  }
+  #home-about .info {
+    padding-bottom: 15px;
+  }
+  #home-about .info:before {
+    bottom: 0;
+  }
+  #home-about .info .img-block .title h2,
+  #home-about .info .img-block .title h2 small {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .call-block .inner {
+    background: none;
+  }
+  .call-block .inner form .btn {
+    right: 0;
+  }
+  .programm .img,
+  .programm .img img {
+    height: 200px;
+  }
+  .programm .social:after {
+    content: none;
+  }
+  .programm .btn {
+    right: 0;
+  }
+  #question .question-block {
+    padding-top: 50px;
+    padding-bottom: 78px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .sertificates .top {
+    margin-bottom: 35px;
+  }
+  .celebrity .pic {
+    width: 33.33%;
+  }
+  .celebrity .pic img {
+    height: 300px;
+  }
+  .philosophy .block:before {
+    bottom: 0;
+  }
+  .philosophy .block .inner .title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .philosophy .block .inner .title:before {
+    top: 26px;
+  }
+  .invite-block:before {
+    bottom: 0;
+  }
+  .invite-block .inner .image .btn {
+    bottom: -45px;
+  }
+  .invite-block .inner .right {
+    padding-left: 0;
+  }
+  .shop .inner .img {
+    height: 280px;
+    line-height: 280px;
+  }
+  .pressa-block {
+    height: 235px;
+  }
+  .service .info .inner .title {
+    margin-top: 20px;
+  }
+}
+
+@media(max-width: 991px) {
+  header {
+    position: relative;
+  }
+  nav {
+    float: right;
+  }
+  nav .menu-toggle {
+    display: inline-block;
+    z-index: 12;
+  }
+  #menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    background-color: #323;
+    z-index: 11;
+  }
+  #menu .dropdown {
+    text-align: left;
+  }
+  header .social-toggle {
+    float: right;
+    margin-left: 0;
+    margin-right: 40px;
+    margin-top: 24px;
+  }
+  #home-about .info .img-block {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  #home-about .info .img-block .title:before {
+    content: none;
+  }
+  #home-about .info .img-block .title h2 {
+    padding: 10px
+  }
+  #home-about .info .img-block .title .btn {
+    position: relative;
+    margin-top: 10px;
+  }
+  #home-about .info .text {
+    padding-top: 0;
+    padding-left: 30px;
+  }
+  .home-block .service-block {
+    margin-bottom: 20px;
+  }
+  #question .question-block {
+    padding: 20px;
+    background: #f2f2f2;
+  }
+  #question .question-block .title {
+    padding-left: 0;
+    padding-right: 150px;
+    font-size: 18px;
+    text-align: left;
+  }
+  #question .question-block .btn {
+    right: 50px;
+    bottom: 50%;
+    margin-bottom: -15px;
+  }
+  .about-content .image {
+    margin-top: 20px;
+  }
+  .celebrity .pic img {
+    height: 265px;
+  }
+  .deliver .type {
+    margin-bottom: 15px;
+  }
+  .deliver .type .name {
+    padding-right: 120px;
+  }
+  .philosophy .block .inner .text {
+    padding-left: 30px;
+  }
+  .phil-block2 img {
+    margin-bottom: 20px;
+  }
+  .garantiya {
+    min-height: 0;
+  }
+  .invite-block .inner .image .btn {
+    bottom: 25px;
+  }
+  .invite-block .inner .right {
+    padding-left: 30px;
+  }
+  .shop .inner .overlay {
+    overflow: hidden;
+  }
+  .kurs .content .day .img {
+    display: inline-block;
+  }
+  .pressa-block {
+    height: 470px;
+    width: 50%;
+  }
+  .service .info:before {
+    bottom: -15px;
+  }
+  .coop-block .inner .text {
+    padding-left: 30px;
+  }
+  .call form {
+    padding: 30px 30px 65px;
+  }
+  .modal-dialog {
+    width: 90%!important;
+  }
+  .modal-container {
+    top: 50px;
+    transform: translateY(0);
+  }
+}
+
+@media(max-width: 767px) {
+  #menu {
+    top: 100%;
+    text-align: left;
+    overflow: hidden;
+  }
+  #menu>li {
+    display: block;
+  }
+  #menu>li>a {
+    line-height: 30px;
+    padding: 5px 15px;
+  }
+  #menu>li>a>i {
+    display: inline-block;
+  }
+  #menu .dropdown,
+  #menu .dropdown.mega {
+    display: none;
+  }
+  #home-about .info .img-block {
+    margin-bottom: 15px;
+  }
+  #home-about .info .text {
+    padding-right: 0;
+  }
+  .home-block .section-title {
+    text-align: center;
+  }
+  #programms .section-title span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  #programms .section-title .btn {
+    float: none!important;
+  }
+  #programms .owl-carousel .owl-stage-outer {
+    margin: 0;
+  }
+  .programm {
+    margin: 0;
+    border: 0;
+  }
+  .programm .inner {
+    left: 0;
+    top: 0;
+    height: auto;
+    padding: 15px;
+    background-position: top center;
+  }
+  footer .top {
+    padding-bottom: 0;
+    width: 400px;
+    margin: 0 auto;
+  }
+  footer .top .title {
+    position: relative;
+    padding: 10px 0;
+    border-bottom: 1px solid #3e2c43;
+    cursor: pointer;
+  }
+  footer .top .title:after {
+    content: "\e907";
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    display: inline-block;
+    font-family: 'icomoon';
+    font-size: 12px;
+    color: #3e2c43;
+    transform: rotate(90deg);
+  }
+  footer .top ul,
+  footer .top .footer-contact {
+    display: none;
+  }
+  footer .bottom {
+    border-top: 0;
+  }
+  footer .bottom .pull-left,
+  footer .bottom .pull-right {
+    float: none!important;
+    text-align: center;
+  }
+  .celebrity .pic {
+    width: 50%;
+  }
+  .celebrity .pic .overlay {
+    right: 10px;
+    opacity: 1;
+  }
+  .celebrity .pic img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .study .owl-carousel .owl-stage-outer {
+    margin: 0;
+  }
+  .new-list-item .inner .content {
+    height: 110px;
+    bottom: 0;
+  }
+  .new-list-item .inner .content .more {
+    display: none!important;
+  }
+  .new-list-item .inner:hover .top .date {
+    bottom: 15px;
+  }
+  .pressa-block {
+    height: 400px;
+  }
+  .service-list-item .inner .text {
+    margin-top: 15px;
+    padding-right: 0;
+    padding-left: 30px;
+  }
+  .service-list-item {
+    background-color: #fff;
+  }
+  .service-list-item .inner .text p {
+    height: auto;
+  }
+  .service-list-item .inner .text .btn-line .btn {
+    margin-right: -15px;
+  }
+  .cooperation-block2 img {
+    margin: 10px auto;
+  }
+  .study-table .inner .table,
+  .study-table .inner .table>tbody,
+  .study-table .inner .table>tbody>tr,
+  .study-table .inner .table>tbody>tr>td {
+    display: block;
+    width: 100%!important;
+  }
+  .study-table .inner .table>tbody>tr {
+    border: 1px solid #181a1f;
+    border-top: 0;
+  }
+  .study-table .inner .table>tbody>tr>td+td {
+    padding-left: 55px;
+    padding-right: 15px;
+    border-left: 0;
+    text-align: left!important;
+  }
+  .videos .video img,
+  .videos .video iframe {
+    height: 300px;
+  }
+  .study .programm .inner {
+    height: auto;
+  }
+  header .social-block {
+    width: 100%;
+    right: 0;
+  }
+  .social-block .long .title,
+  .social-block .long .link {
+    padding-left: 50px;
+  }
+  .social-block .long .title i {
+    left: 22px;
+  }
+}
+
+@media(max-width: 565px) {
+  #home-about .info .inner .col-xs-6 {
+    float: none;
+    width: 100%;
+  }
+  #home-about .info .img-block {
+    margin-left: 30px;
+  }
+  #home-about .info .img-block img {
+    width: 100%;
+  }
+  .call-block .inner {
+    padding: 0;
+  }
+  .programm .inner {
+    height: auto;
+  }
+  #question .question-block {
+    text-align: center;
+  }
+  #question .question-block .title {
+    padding-right: 0;
+    text-align: center;
+  }
+  #question .question-block .btn {
+    position: relative;
+    left: auto;
+    right: auto;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  footer .bottom .created span {
+    display: block;
+    height: 0;
+    text-indent: -9999px;
+    height: 1px;
+    background-color: #3e2c43;
+  }
+  .section-title {
+    font-size: 22px;
+  }
+  .deliver .type .name {
+    font-size: 18px;
+  }
+  .phil-block3 .hex {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .phil-block3 .service-block .name {
+    display: block;
+  }
+  .service-list-item .inner .text .btn-line,
+  .content .btn-line,
+  .product .btn-line {
+    text-align: left;
+  }
+  .service-list-item .inner .text .btn-line:before,
+  .content .btn-line:before {
+    content: none;
+  }
+  .service-list-item .inner .text .btn-line .left-text,
+  .content .btn-line .left-text,
+  .product .btn-line .left-text {
+    position: relative;
+    left: 0;
+    padding-left: 0;
+    display: block;
+    max-width: 100%;
+  }
+  .kurs .content .day {
+    padding-left: 0;
+  }
+  .nouveau .image .inner .title {
+    position: relative;
+    left: 0;
+  }
+  .call form {
+    padding: 15px;
+    padding-bottom: 40px;
+  }
+  .call form .title {
+    font-size: 20px;
+  }
+  .pressa-block {
+    height: 350px;
+  }
+  .coop-block .inner .gray img {
+    max-width: 100%;
+  }
+  .coop-block .inner .gray .title {
+    padding-bottom: 45px;
+  }
+}
+
+@media(max-width: 465px) {
+  header .logo img {
+    width: 115px;
+  }
+  header .menu-toggle,
+  header .menu-toggle .bar,
+  header .menu-toggle .bar:after,
+  header .menu-toggle .bar:before {
+    width: 25px;
+  }
+  header .social-toggle {
+    margin-right: 20px;
+    padding-left: 5px;
+    font-size: 12px;
+  }
+  header .social-toggle i {
+    display: none;
+  }
+  .call-block .inner form {
+    padding: 15px;
+    height: auto;
+    text-align: center;
+  }
+  .call-block .inner form .btn {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+  }
+  footer .top {
+    width: 300px;
+  }
+  .celebrity .pic {
+    width: 100%;
+  }
+  .gallery .col-xs-6 {
+    width: 100%;
+  }
+  .pressa-block {
+    width: 100%;
+    height: auto;
+  }
+}
